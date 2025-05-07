@@ -43,7 +43,7 @@ export function Calculator() {
           <Button className="flex-1 h-16 w-16">0</Button>
           <Button className="h-16 w-16">,</Button>
 
-          <Button variant="primary" className="bg-purple-600/90 h-16 w-16">
+          <Button variant="primary" className="bg-purple-500 h-16 w-16">
             =
           </Button>
         </div>
