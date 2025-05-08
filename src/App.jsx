@@ -1,5 +1,5 @@
-import { Calculator } from "./components/Calculator";
-import { OperationHistory } from "./components/OperationHistory";
+import { Calculator } from "@components/Calculator";
+import { OperationHistory } from "@components/OperationHistory";
 
 function App() {
   return (
