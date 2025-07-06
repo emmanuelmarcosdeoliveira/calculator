@@ -1,6 +1,6 @@
 import React from "react";
 
-const textVarariants = {
+const textVariants = {
   default: "text-xl",
   muted: "text-xl text-(--text-secondary)",
   heading: "text-2xl",
@@ -17,7 +17,7 @@ export function Text({
   return React.createElement(
     as,
     {
-      className: `${textVarariants[variant]} ${className ? className : ""}`,
+      className: `${textVariants[variant]} ${className ? className : ""}`,
       ...props,
     },
     children

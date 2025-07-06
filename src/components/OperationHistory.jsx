@@ -3,7 +3,7 @@ import { Text } from "./Text";
 
 export function OperationHistory() {
   return (
-    <Container className="h-[37.125rem] px-8 py-10 w-[22.25rem]">
+    <Container className="h-[37.rem] px-8 py-10 w-[22.25rem]">
       <Text className="mb-4" variant="heading" as="h1">
         Histórico de Operações
       </Text>
