@@ -1,4 +1,4 @@
-export const ButtonsCalc = [
+export const buttonsCalc = [
   [
     { input: "CE" },
     { input: "C", className: "flex-1 h-16" },
