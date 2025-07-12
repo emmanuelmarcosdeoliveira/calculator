@@ -1,5 +1,4 @@
 import { Text } from "./Text";
-
 export function CalculatorDisplay({ result, operation }) {
   return (
     <div
