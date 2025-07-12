@@ -23,7 +23,7 @@
 - [🏗️ Arquitetura e Padrões](#️-arquitetura-e-padrões)
 - [⚙️ Configuração e Instalação](#️-configuração-e-instalação)
 - [📁 Estrutura do Projeto](#-estrutura-do-projeto)
-- [👨‍💻 Desenvolvedor](#-desenvolvedor)
+- [👨‍💻 Desenvolvedor](#-desenvolvedor) -[Contribua para o Projeto](#)
 
 ---
 
@@ -172,15 +172,13 @@ calculator/
 
 ---
 
-## Contributors or owners
-
 <img height="64px" src="https://res.cloudinary.com/delo0gvyb/image/upload/v1752287431/profile_mjvmdb.png"><br>
 <small>Emmanuel Oliveira</small>
 
 developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
 &copy; Todos os Direitos Reservados
 
-### Contribute to the projects
+## Contribua para o projeto
 
 > Clique na seta abaixo e veja como você pode contribuir para o projeto
 
