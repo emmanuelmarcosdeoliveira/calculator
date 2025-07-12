@@ -23,7 +23,9 @@
 - [🏗️ Arquitetura e Padrões](#️-arquitetura-e-padrões)
 - [⚙️ Configuração e Instalação](#️-configuração-e-instalação)
 - [📁 Estrutura do Projeto](#-estrutura-do-projeto)
-- [👨‍💻 Desenvolvedor](#-desenvolvedor) -[Contribua para o Projeto](#)
+- [👨‍💻 Desenvolvedor](#-desenvolvedor)
+- [Contribua para o Projeto](#-Contribua para o projeto)
+
 
 ---
 
