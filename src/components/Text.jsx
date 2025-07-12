@@ -1,6 +1,7 @@
 import React from "react";
 
 const textVariants = {
+  mini: "text-md text-(--text-secondary)",
   default: "text-xl",
   muted: "text-xl text-(--text-secondary)",
   heading: "text-2xl",
