@@ -1,41 +1,15 @@
-import { useState } from "react";
-import { buttonsCalc } from "../constants/constants";
+/** biome-ignore-all lint/suspicious/noArrayIndexKey: não obrigatório  */
 import { Button } from "./Button";
+import { useCalculator } from "../hooks/useCalculator";
+import { buttonsCalc } from "../constants/constants";
 import { CalculatorDisplay } from "./CalculatorDisplay";
 import { Container } from "./Container";
 
 export function Calculator() {
-  const [operation, setOperation] = useState("");
-  const [result, setResult] = useState("");
+  const { operation, result, doOperation } = useCalculator();
 
   function handleButtonClick(input) {
-    if (input === "C") {
-      setOperation(""), setResult("");
-      return;
-    }
-    if (input === "CE") {
-      setResult("");
-      setOperation(operation.slice(0, -1));
-      return;
-    }
-
-    if (input === "=") {
-      const operationResult = eval(operation.replace(/,/g, "."));
-      const parsResult = operationResult.toString()?.replace(/\./g, ",");
-      setResult(parsResult);
-      return;
-    }
-    if (result) {
-      setOperation(isNaN(input) ? `${result}${input}` : input);
-      setResult("");
-      return;
-    }
-
-    if (input === "," && !operation.endsWith(",")) {
-      setOperation(`${operation},`);
-      return;
-    }
-    setOperation(`${operation}${input}`);
+    doOperation(input);
   }
 
   return (
